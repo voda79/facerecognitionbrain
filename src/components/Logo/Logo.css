@@ -1,0 +1,20 @@
+.parallax-effect {
+	width: 150px;
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	transform-style: preserve-3d;
+	background: linear-gradient(89deg, #FF5EDF 0%, #04C8DE 100%);
+}
+
+.inner-element {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	font-style: italic;
+	transform: translateZ(60px);
+}
